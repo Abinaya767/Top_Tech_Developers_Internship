@@ -1,0 +1,36 @@
+DATA SET,,,,,
+,,,,,
+Workers,Machines,Working Hours,Raw Materials,Electricity,Production Status
+20 workers,5 machines,8 hours,100 kg steel,50 units,High
+15 workers,4 machines,6 hours,40 kg iron,40 units,Low
+10 workers,2 machines,4 hours,40 kg plastic,20 units,Low
+25 workers,6 machines,9 hours,120 kg copper,60 units,High
+12 workers,3 machines,5 hours,60 kg aluminium,30 units,Low
+,,,,,
+Exploratory Data Analysis,,,,,
+,,,,,
+1. Shape of Dataset,,,,,
+Rows = 5,,,,,
+Columns = 6,,,,,
+,,,,,
+2. Data Types,,,,,
+Column,Data Type,,,,
+Workers,Integer,,,,
+Machines,Integer,,,,
+Working Hours,Integer,,,,
+Raw Materials,String,,,,
+Electricity,String,,,,
+Production Status,String,,,,
+,,,,,
+3. Missing Values,,,,,
+"
+Every row contains unique production data.",,,,,
+,,,,,
+,,,,,
+4. Duplicate Values,,,,,
+No duplicate rows found ,,,,,
+,,,,,
+5. Production Status Count,,,,,
+Status,Count,,,,
+High,2,,,,
+Low,3,,,,
